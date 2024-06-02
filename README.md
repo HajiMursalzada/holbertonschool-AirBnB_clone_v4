@@ -27,6 +27,7 @@ This project is interpreted/tested on Ubuntu 14.04 LTS using python3 (version 3.
 * Run hbnb(interactively): `./console` and enter command
 * Run hbnb(non-interactively): `echo "<command>" | ./console.py`
 
+
 ## File Descriptions
 [console.py](console.py) - the console contains the entry point of the command interpreter. 
 List of commands this console current supports:
@@ -45,6 +46,7 @@ List of commands this console current supports:
 * `def __str__(self)` - String representation of the BaseModel class
 * `def save(self)` - Updates the attribute `updated_at` with the current datetime
 * `def to_dict(self)` - returns a dictionary containing all keys/values of the instance
+
 
 Classes inherited from Base Model:
 * [amenity.py](/models/amenity.py)
@@ -150,8 +152,10 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+
 ## Bugs
 No known bugs at this time. 
+
 
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
@@ -159,6 +163,11 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 
+Haji Mursalzada - [Github](https://github.com/HajiMursalzada)
+Gunel Sultanova - [Github](https://github.com/aelitaa)
+
+
 Second part of Airbnb: Joann Vuong
 ## License
+
 Public Domain. No copy write protection. 
